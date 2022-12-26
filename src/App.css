@@ -1,0 +1,46 @@
+body {
+    background-color: #111111;
+}
+
+@font-face {
+    font-family: "GothamLight";
+    src: local("GothamLight"),
+     url("./fonts/Gotham-Font/GothamLight.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "GothamMedium";
+    src: local("GothamMedium"),
+     url("./fonts/Gotham-Font/GothamMedium.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "GothamBold";
+    src: local("GothamBold"),
+     url("./fonts/Gotham-Font/GothamBold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "GothamBold";
+    color: white;
+
+}
+
+h2 {
+    font-family: "GothamMedium";
+    color: white;
+
+}
+
+h3 {
+    font-family: "GothamLight";
+    color: white;
+}
+
+* {
+    margin: 0;
+}
+
