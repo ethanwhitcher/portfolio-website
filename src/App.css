@@ -1,5 +1,5 @@
 body {
-    background-color: #111111;
+    background-color: white;
 }
 
 @font-face {
@@ -44,3 +44,6 @@ h3 {
     margin: 0;
 }
 
+nav {
+    color: black;
+}
