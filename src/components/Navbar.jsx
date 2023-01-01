@@ -7,16 +7,16 @@ export default function Navbar() {
                 <a href="/" className='home'>Ethan Whitcher</a>
                 <ul>
                     <li>
-                        <a href='About Me'>About Me</a>
+                        <a href='About Me' className='about'>About Me</a>
                     </li>
                     <li>
-                        <a href='Skills'>Skills</a>
+                        <a href='Skills' className='skills'>Skills</a>
                     </li>
                     <li>
-                        <a href='Projects'>Projects</a>
+                        <a href='Projects' className='projects'>Projects</a>
                     </li>
                     <li>
-                        <a href='Contact'>Contact</a>
+                        <a href='Contact' className='contact'>Contact</a>
                     </li>
                 </ul>
             </nav>
